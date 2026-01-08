@@ -1,0 +1,20 @@
+title: "Ephraim Ohana – Media & Visuals"
+description: "Visual media and diagrams supporting canonical content on ephraimohana.us"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
