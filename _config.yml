@@ -1,12 +1,25 @@
 title: "Ephraim Ohana – Media & Visuals"
 description: "Visual media and diagrams supporting canonical content on ephraimohana.us"
+
+url: "https://ephraimohana.net"
+
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: default
+include:
+  - _pages
+
+seo:
+  canonical_url: false
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 defaults:
   - scope:
